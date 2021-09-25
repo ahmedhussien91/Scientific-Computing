@@ -1,0 +1,13 @@
+Matrix 1024x1024
+CPU Execution Time: 1878834 us
+GPU Execution Time: 414851 us
+GPU Execution Time with shared Memory: 218700 us
+
+Matrix 4x4 
+CPU Execution Time: 5 us
+GPU Execution Time: 194234 us
+GPU Execution Time with shared Memory: 206331 us
+
+
+with small Matrix the GPU Memory Copying time is a big Overhead
+with big matrix the GPU Memory copying time is covered by the Big data flow executing in parallel

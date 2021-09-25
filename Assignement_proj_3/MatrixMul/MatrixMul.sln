@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixMul_GPU", "MatrixMul\MatrixMul.vcxproj", "{E69CF801-0E09-404C-BD3C-40DF972F1135}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixMul_CPU", "MatrixMul_CPU\MatrixMul_CPU.vcxproj", "{61D89104-8EE6-4065-8568-0B431EEE1917}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixMul_GPU_SharedMemory", "MatrixMul_GPU_SharedMemory\MatrixMul_GPU_SharedMemory.vcxproj", "{AD46B1A3-21C6-4930-9529-B6EB6937A19F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E69CF801-0E09-404C-BD3C-40DF972F1135}.Debug|x64.ActiveCfg = Debug|x64
+		{E69CF801-0E09-404C-BD3C-40DF972F1135}.Debug|x64.Build.0 = Debug|x64
+		{E69CF801-0E09-404C-BD3C-40DF972F1135}.Debug|x86.ActiveCfg = Debug|x64
+		{E69CF801-0E09-404C-BD3C-40DF972F1135}.Release|x64.ActiveCfg = Release|x64
+		{E69CF801-0E09-404C-BD3C-40DF972F1135}.Release|x64.Build.0 = Release|x64
+		{E69CF801-0E09-404C-BD3C-40DF972F1135}.Release|x86.ActiveCfg = Release|x64
+		{61D89104-8EE6-4065-8568-0B431EEE1917}.Debug|x64.ActiveCfg = Debug|x64
+		{61D89104-8EE6-4065-8568-0B431EEE1917}.Debug|x64.Build.0 = Debug|x64
+		{61D89104-8EE6-4065-8568-0B431EEE1917}.Debug|x86.ActiveCfg = Debug|Win32
+		{61D89104-8EE6-4065-8568-0B431EEE1917}.Debug|x86.Build.0 = Debug|Win32
+		{61D89104-8EE6-4065-8568-0B431EEE1917}.Release|x64.ActiveCfg = Release|x64
+		{61D89104-8EE6-4065-8568-0B431EEE1917}.Release|x64.Build.0 = Release|x64
+		{61D89104-8EE6-4065-8568-0B431EEE1917}.Release|x86.ActiveCfg = Release|Win32
+		{61D89104-8EE6-4065-8568-0B431EEE1917}.Release|x86.Build.0 = Release|Win32
+		{AD46B1A3-21C6-4930-9529-B6EB6937A19F}.Debug|x64.ActiveCfg = Debug|x64
+		{AD46B1A3-21C6-4930-9529-B6EB6937A19F}.Debug|x64.Build.0 = Debug|x64
+		{AD46B1A3-21C6-4930-9529-B6EB6937A19F}.Debug|x86.ActiveCfg = Debug|x64
+		{AD46B1A3-21C6-4930-9529-B6EB6937A19F}.Release|x64.ActiveCfg = Release|x64
+		{AD46B1A3-21C6-4930-9529-B6EB6937A19F}.Release|x64.Build.0 = Release|x64
+		{AD46B1A3-21C6-4930-9529-B6EB6937A19F}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEE77F48-E99C-44AA-952A-DFA45A5A3116}
+	EndGlobalSection
+EndGlobal
