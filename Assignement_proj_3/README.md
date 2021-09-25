@@ -27,6 +27,6 @@ GIMP https://www.gimp.org/
 Prewitt Operator: https://en.wikipedia.org/wiki/Prewitt _operator
 
 Deliverables
-source code for the project including your implementation files as well as a functional executable.
+source code for the project including your implementation files.
 This exection time for different image sizes and using different techniques for Matrix multiplication (./MatrixMul/Execution Time.txt)
 This exection time for different image sizes and using different techniques for Perwitt (./Perwitt/PERWIT/Execution Time.txt)
