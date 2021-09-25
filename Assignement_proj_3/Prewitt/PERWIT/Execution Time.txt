@@ -1,0 +1,9 @@
+384x480 image
+AVG GPU Execution time using with Shared MEM: 509924.25 us
+AVG GPU Execution time using without Shared MEM:412621.67 us
+AVG CPU Execution time: 4164 us 
+
+1024x1024 image
+AVG GPU Execution time using with Shared MEM: 305187 us
+AVG GPU Execution time using without Shared MEM: 339458 us
+AVG CPU Execution time: 21512 us 
