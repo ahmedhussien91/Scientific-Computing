@@ -1,0 +1,7 @@
+*.pro.user
+.qmake.stash
+Makefile*
+/debug
+/release
+/build-project1-Desktop_*
+project1/project1.pro.user.75b091b
